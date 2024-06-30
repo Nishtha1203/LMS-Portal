@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Franklin Gothic, Arial, sans-serif;
+    background-color: rgb(14, 0, 71);
+    color: white;
+}
+
+header {
+    background-color: #6805fc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: x-large;
+}
+
+.container {
+    padding-bottom: 60px;
+    padding-top: 60px; /* Adjust top padding to make space for the header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set container height to full viewport height */
+}
+
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+}

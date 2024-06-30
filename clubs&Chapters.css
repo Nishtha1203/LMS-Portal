@@ -1,0 +1,57 @@
+body {
+    font-family: Franklin Gothic, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 0, 71);
+    color: white;
+}
+
+header {
+    background-color: #6805fc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: x-large;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(14, 0, 71);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.club-section {
+    margin-bottom: 30px;
+    padding: 20px 20px 40px 40px;
+}
+
+.club-section h2 {
+    font-size: 1.5em;
+    color: #6805fc;
+    margin-bottom: 10px;
+}
+
+.club-section p {
+    color: #c8a3ff;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.club-section ul {
+    margin-left: 20px;
+    font-size: large;
+}
+
+.club-section ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: medium;
+}
+
+.club-section ul li:before {
+    content: "•";
+    color: #6805fc;
+    margin-right: 5px;
+}

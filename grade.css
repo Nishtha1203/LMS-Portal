@@ -1,0 +1,70 @@
+body {
+    font-family: Franklin Gothic, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 0, 71);
+    color: white;
+}
+
+header {
+    background-color: #6805fc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: x-large;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(14, 0, 71);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.class-selection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.class-selection h2 {
+    font-size: 2em;
+    color: #6805fc;
+    margin-bottom: 10px;
+}
+
+#classSelector {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.grade-table {
+    margin-top: 18px;
+    color: #c8a3ff;
+    padding-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #c8a3ff;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #6805fc;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #4a00b8;
+}
+
+table th, table td {
+    font-family: Franklin Gothic, Arial, sans-serif;
+}

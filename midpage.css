@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    background-color: rgb(14, 0, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    font-family: serif;
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgb(14, 0, 71);
+    margin-top: 80px;
+    text-decoration: underline;
+}
+
+.options-container {
+    width: 400px; /* Increased width */
+    height: 400px;
+    font-family: Franklin Gothic;
+    border: solid 1px rgb(25, 1, 119);
+    background-color:  #c8a3ff;
+    border-radius: 10px;
+    padding: 30px; /* Increased padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.options-container p {
+    color:  #4a00b8;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.options-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.options-container ul li {
+    margin-bottom: 10px;
+}
+
+.options-container ul li a {
+    text-decoration: none;
+    color: #4a00b8;
+    font-size: large;
+    padding: 10px 20px; /* Add padding to create space around the link */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.options-container ul li a:hover {
+    color: #ffffff;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,86 @@
+body {
+    font-family: Franklin Gothic, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 0, 71); /* Changed to match lower page color */
+    color: #c8a3ff; /* Changed to match text color in lower page */
+}
+
+header {
+    background-color: #6805fc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: x-large;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(14, 0, 71);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.class-selection {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.class-selection h1 {
+    font-size: 2em;
+    color: #6805fc;
+    margin-bottom: 10px;
+}
+
+#classSelector {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.attendance-form {
+    display: flex;
+    flex-direction: column;
+    color: #c8a3ff;
+    margin-left: 250px;
+}
+
+.student-list {
+    list-style: none;
+    padding: 0;
+}
+
+.student-list li {
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.checkbox-label {
+    display: block;
+    color: #6805fc;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.submit-btn {
+    background-color: #c8a3ff;
+    color: #22202a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 500;
+    margin-left: auto; /* Center the button horizontally */
+    margin-right: auto; /* Center the button horizontally */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #6805fc;
+    color: white;
+}

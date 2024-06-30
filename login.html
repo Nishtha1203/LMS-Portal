@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css"> 
+</head>
+<body>
+    <form action="login.php" method="POST">
+        <div class="heading">
+            <a href="https://jaipur.manipal.edu/" 
+                style="text-decoration: none;">
+                <h1 style="color: white;" onmouseover="this.style.color='#c8a3ff'" onmouseout="this.style.color='white'">
+                    MANIPAL UNIVERSITY JAIPUR
+                </h1>
+            </a>
+        </div>
+        
+        <div class="loginform">
+            <h2>Enter your login details</h2>
+            <div class="inputgroup">
+                <label for="username">Username</label><br>
+                <input type="text" id="username" name="username" placeholder="Enter Username">          
+            </div>
+            <div class="inputgroup">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter Password">
+            </div>
+            <div id="error-message" style="display: none; color: red;">Incorrect username or password</div>
+            <div class="button">
+                <button type="button" class="btnlogin" onclick="validateLogin()">Login</button>
+            </div>
+        </div><br>
+        <div class="address">
+            <p>Manipal University Jaipur, Dehmi Kalan, <br>
+            Off Jaipur-Ajmer Expressway, <br>
+            Jaipur - 303 007, Rajasthan, India</p>
+        </div>
+    </form>
+
+    <script>
+        function validateLogin() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            // Check if username and password are correct
+            if (username.toLowerCase() === "nishtha" && password === "nishtha@muj") {
+                window.location.href = "midpage.html"; // Redirect if correct
+            } else {
+                document.getElementById("error-message").style.display = "block"; // Display error message
+            }
+        }
+    </script>
+</body>
+</html>

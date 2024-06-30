@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Portal</title>
+    <link rel="stylesheet" href="grade.css">
+</head>
+<body>
+    <header>
+        <h1>Grade Portal</h1>
+    </header>
+    <div class="container">
+        <div class="class-selection">
+            <h2>Select Class</h2>
+            <select id="classSelector" onchange="showGrades()">
+                <option value="">Select Class</option>
+                <option value="class1">Class 1</option>
+                <option value="class2">Class 2</option>
+                <option value="class3">Class 3</option>
+                <option value="class4">Class 4</option>
+            </select>
+        </div>
+        <div id="gradeTable" class="grade-table">
+            <!-- Grade table will be inserted here dynamically -->
+        </div>
+    </div>
+    <script src="grade.js"></script>
+</body>
+</html>
